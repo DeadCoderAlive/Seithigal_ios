@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4721F467956002EB820 /* AppDelegate.swift */; };
+		F4E3A4751F467956002EB820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4741F467956002EB820 /* ViewController.swift */; };
+		F4E3A4781F467956002EB820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4761F467956002EB820 /* Main.storyboard */; };
+		F4E3A47A1F467956002EB820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4791F467956002EB820 /* Assets.xcassets */; };
+		F4E3A47D1F467956002EB820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A47B1F467956002EB820 /* LaunchScreen.storyboard */; };
+		F4E3A4881F467956002EB820 /* SeithigalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4871F467956002EB820 /* SeithigalTests.swift */; };
+		F4E3A4931F467956002EB820 /* SeithigalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4921F467956002EB820 /* SeithigalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E3A4841F467956002EB820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E3A4671F467956002EB820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E3A46E1F467956002EB820;
+			remoteInfo = Seithigal;
+		};
+		F4E3A48F1F467956002EB820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E3A4671F467956002EB820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E3A46E1F467956002EB820;
+			remoteInfo = Seithigal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4E3A46F1F467956002EB820 /* Seithigal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seithigal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3A4721F467956002EB820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E3A4741F467956002EB820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E3A4771F467956002EB820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E3A4791F467956002EB820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E3A47C1F467956002EB820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E3A47E1F467956002EB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3A4831F467956002EB820 /* SeithigalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeithigalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3A4871F467956002EB820 /* SeithigalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeithigalTests.swift; sourceTree = "<group>"; };
+		F4E3A4891F467956002EB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3A48E1F467956002EB820 /* SeithigalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeithigalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3A4921F467956002EB820 /* SeithigalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeithigalUITests.swift; sourceTree = "<group>"; };
+		F4E3A4941F467956002EB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E3A46C1F467956002EB820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A4801F467956002EB820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A48B1F467956002EB820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E3A4661F467956002EB820 = {
+			isa = PBXGroup;
+			children = (
+				F4E3A4711F467956002EB820 /* Seithigal */,
+				F4E3A4861F467956002EB820 /* SeithigalTests */,
+				F4E3A4911F467956002EB820 /* SeithigalUITests */,
+				F4E3A4701F467956002EB820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E3A4701F467956002EB820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3A46F1F467956002EB820 /* Seithigal.app */,
+				F4E3A4831F467956002EB820 /* SeithigalTests.xctest */,
+				F4E3A48E1F467956002EB820 /* SeithigalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E3A4711F467956002EB820 /* Seithigal */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3A4721F467956002EB820 /* AppDelegate.swift */,
+				F4E3A4741F467956002EB820 /* ViewController.swift */,
+				F4E3A4761F467956002EB820 /* Main.storyboard */,
+				F4E3A4791F467956002EB820 /* Assets.xcassets */,
+				F4E3A47B1F467956002EB820 /* LaunchScreen.storyboard */,
+				F4E3A47E1F467956002EB820 /* Info.plist */,
+			);
+			path = Seithigal;
+			sourceTree = "<group>";
+		};
+		F4E3A4861F467956002EB820 /* SeithigalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3A4871F467956002EB820 /* SeithigalTests.swift */,
+				F4E3A4891F467956002EB820 /* Info.plist */,
+			);
+			path = SeithigalTests;
+			sourceTree = "<group>";
+		};
+		F4E3A4911F467956002EB820 /* SeithigalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3A4921F467956002EB820 /* SeithigalUITests.swift */,
+				F4E3A4941F467956002EB820 /* Info.plist */,
+			);
+			path = SeithigalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E3A46E1F467956002EB820 /* Seithigal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3A4971F467956002EB820 /* Build configuration list for PBXNativeTarget "Seithigal" */;
+			buildPhases = (
+				F4E3A46B1F467956002EB820 /* Sources */,
+				F4E3A46C1F467956002EB820 /* Frameworks */,
+				F4E3A46D1F467956002EB820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seithigal;
+			productName = Seithigal;
+			productReference = F4E3A46F1F467956002EB820 /* Seithigal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E3A4821F467956002EB820 /* SeithigalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3A49A1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalTests" */;
+			buildPhases = (
+				F4E3A47F1F467956002EB820 /* Sources */,
+				F4E3A4801F467956002EB820 /* Frameworks */,
+				F4E3A4811F467956002EB820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E3A4851F467956002EB820 /* PBXTargetDependency */,
+			);
+			name = SeithigalTests;
+			productName = SeithigalTests;
+			productReference = F4E3A4831F467956002EB820 /* SeithigalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E3A48D1F467956002EB820 /* SeithigalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3A49D1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalUITests" */;
+			buildPhases = (
+				F4E3A48A1F467956002EB820 /* Sources */,
+				F4E3A48B1F467956002EB820 /* Frameworks */,
+				F4E3A48C1F467956002EB820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E3A4901F467956002EB820 /* PBXTargetDependency */,
+			);
+			name = SeithigalUITests;
+			productName = SeithigalUITests;
+			productReference = F4E3A48E1F467956002EB820 /* SeithigalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E3A4671F467956002EB820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Srinivasan Sundaramoorthy";
+				TargetAttributes = {
+					F4E3A46E1F467956002EB820 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B2NMY273BR;
+						ProvisioningStyle = Automatic;
+					};
+					F4E3A4821F467956002EB820 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B2NMY273BR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4E3A46E1F467956002EB820;
+					};
+					F4E3A48D1F467956002EB820 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B2NMY273BR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4E3A46E1F467956002EB820;
+					};
+				};
+			};
+			buildConfigurationList = F4E3A46A1F467956002EB820 /* Build configuration list for PBXProject "Seithigal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E3A4661F467956002EB820;
+			productRefGroup = F4E3A4701F467956002EB820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E3A46E1F467956002EB820 /* Seithigal */,
+				F4E3A4821F467956002EB820 /* SeithigalTests */,
+				F4E3A48D1F467956002EB820 /* SeithigalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E3A46D1F467956002EB820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3A47D1F467956002EB820 /* LaunchScreen.storyboard in Resources */,
+				F4E3A47A1F467956002EB820 /* Assets.xcassets in Resources */,
+				F4E3A4781F467956002EB820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A4811F467956002EB820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A48C1F467956002EB820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E3A46B1F467956002EB820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3A4751F467956002EB820 /* ViewController.swift in Sources */,
+				F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A47F1F467956002EB820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3A4881F467956002EB820 /* SeithigalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3A48A1F467956002EB820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3A4931F467956002EB820 /* SeithigalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E3A4851F467956002EB820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E3A46E1F467956002EB820 /* Seithigal */;
+			targetProxy = F4E3A4841F467956002EB820 /* PBXContainerItemProxy */;
+		};
+		F4E3A4901F467956002EB820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E3A46E1F467956002EB820 /* Seithigal */;
+			targetProxy = F4E3A48F1F467956002EB820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E3A4761F467956002EB820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E3A4771F467956002EB820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E3A47B1F467956002EB820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E3A47C1F467956002EB820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E3A4951F467956002EB820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E3A4961F467956002EB820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E3A4981F467956002EB820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = Seithigal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.Seithigal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4E3A4991F467956002EB820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = Seithigal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.Seithigal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4E3A49B1F467956002EB820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = SeithigalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.SeithigalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seithigal.app/Seithigal";
+			};
+			name = Debug;
+		};
+		F4E3A49C1F467956002EB820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = SeithigalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.SeithigalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seithigal.app/Seithigal";
+			};
+			name = Release;
+		};
+		F4E3A49E1F467956002EB820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = SeithigalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.SeithigalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Seithigal;
+			};
+			name = Debug;
+		};
+		F4E3A49F1F467956002EB820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B2NMY273BR;
+				INFOPLIST_FILE = SeithigalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadcoderalive.SeithigalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Seithigal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E3A46A1F467956002EB820 /* Build configuration list for PBXProject "Seithigal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3A4951F467956002EB820 /* Debug */,
+				F4E3A4961F467956002EB820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3A4971F467956002EB820 /* Build configuration list for PBXNativeTarget "Seithigal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3A4981F467956002EB820 /* Debug */,
+				F4E3A4991F467956002EB820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4E3A49A1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3A49B1F467956002EB820 /* Debug */,
+				F4E3A49C1F467956002EB820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4E3A49D1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3A49E1F467956002EB820 /* Debug */,
+				F4E3A49F1F467956002EB820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E3A4671F467956002EB820 /* Project object */;
+}
