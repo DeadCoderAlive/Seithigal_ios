@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E1B2D832884B6E182F03BF /* Pods_SeithigalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6535DC6D2CDC3E840C4C88D /* Pods_SeithigalTests.framework */; };
+		9753537D5A1D7A037052DA33 /* Pods_SeithigalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EBFA129FC2D5F8B26D0146 /* Pods_SeithigalUITests.framework */; };
+		D3EC6CDEF663F7E7F43F9382 /* Pods_Seithigal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3D846B35ABC9817587903 /* Pods_Seithigal.framework */; };
+		F48B5C8B1F467D8E002E01FB /* NewsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */; };
 		F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4721F467956002EB820 /* AppDelegate.swift */; };
 		F4E3A4751F467956002EB820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4741F467956002EB820 /* ViewController.swift */; };
 		F4E3A4781F467956002EB820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4761F467956002EB820 /* Main.storyboard */; };
@@ -16,7 +20,7 @@
 		F4E3A4931F467956002EB820 /* SeithigalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4921F467956002EB820 /* SeithigalUITests.swift */; };
 		F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */; };
 		F4E3A4A31F467B45002EB820 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4A21F467B45002EB820 /* config.plist */; };
-		F4E3A4A51F467C4B002EB820 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A41F467C4B002EB820 /* Constants.swift */; };
+		F4E3A4A51F467C4B002EB820 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A41F467C4B002EB820 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B191E0D12138A1995DA3A04 /* Pods-SeithigalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeithigalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeithigalTests/Pods-SeithigalTests.release.xcconfig"; sourceTree = "<group>"; };
+		67B8EAD47B59B547B56C4429 /* Pods-Seithigal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seithigal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seithigal/Pods-Seithigal.debug.xcconfig"; sourceTree = "<group>"; };
+		79D3D846B35ABC9817587903 /* Pods_Seithigal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seithigal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80B8EAED0F8C428A3F5625C /* Pods-SeithigalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeithigalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeithigalTests/Pods-SeithigalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE8D58551589518A45E28E4 /* Pods-SeithigalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeithigalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeithigalUITests/Pods-SeithigalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EBFA129FC2D5F8B26D0146 /* Pods_SeithigalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeithigalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52EA4DC18FA24F1FCF3F795 /* Pods-Seithigal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seithigal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seithigal/Pods-Seithigal.release.xcconfig"; sourceTree = "<group>"; };
+		DC5E95A9B407FAB821A3373B /* Pods-SeithigalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeithigalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeithigalUITests/Pods-SeithigalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6535DC6D2CDC3E840C4C88D /* Pods_SeithigalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeithigalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsProvider.swift; sourceTree = "<group>"; };
 		F4E3A46F1F467956002EB820 /* Seithigal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seithigal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E3A4721F467956002EB820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E3A4741F467956002EB820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +66,7 @@
 		F4E3A4941F467956002EB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewController.swift; sourceTree = "<group>"; };
 		F4E3A4A21F467B45002EB820 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
-		F4E3A4A41F467C4B002EB820 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F4E3A4A41F467C4B002EB820 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EC6CDEF663F7E7F43F9382 /* Pods_Seithigal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E1B2D832884B6E182F03BF /* Pods_SeithigalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9753537D5A1D7A037052DA33 /* Pods_SeithigalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31C4F9EC39CF03D47F1903D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B8EAD47B59B547B56C4429 /* Pods-Seithigal.debug.xcconfig */,
+				D52EA4DC18FA24F1FCF3F795 /* Pods-Seithigal.release.xcconfig */,
+				A80B8EAED0F8C428A3F5625C /* Pods-SeithigalTests.debug.xcconfig */,
+				4B191E0D12138A1995DA3A04 /* Pods-SeithigalTests.release.xcconfig */,
+				AFE8D58551589518A45E28E4 /* Pods-SeithigalUITests.debug.xcconfig */,
+				DC5E95A9B407FAB821A3373B /* Pods-SeithigalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDC9C3B56ECB1A56400EB8B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D3D846B35ABC9817587903 /* Pods_Seithigal.framework */,
+				E6535DC6D2CDC3E840C4C88D /* Pods_SeithigalTests.framework */,
+				B3EBFA129FC2D5F8B26D0146 /* Pods_SeithigalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4E3A4661F467956002EB820 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +127,8 @@
 				F4E3A4861F467956002EB820 /* SeithigalTests */,
 				F4E3A4911F467956002EB820 /* SeithigalUITests */,
 				F4E3A4701F467956002EB820 /* Products */,
+				31C4F9EC39CF03D47F1903D0 /* Pods */,
+				EDC9C3B56ECB1A56400EB8B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +153,8 @@
 				F4E3A47E1F467956002EB820 /* Info.plist */,
 				F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */,
 				F4E3A4A21F467B45002EB820 /* config.plist */,
-				F4E3A4A41F467C4B002EB820 /* Constants.swift */,
+				F4E3A4A41F467C4B002EB820 /* Config.swift */,
+				F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */,
 			);
 			path = Seithigal;
 			sourceTree = "<group>";
@@ -141,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4E3A4971F467956002EB820 /* Build configuration list for PBXNativeTarget "Seithigal" */;
 			buildPhases = (
+				C6D39D89E8B80BE2402A8FF3 /* [CP] Check Pods Manifest.lock */,
 				F4E3A46B1F467956002EB820 /* Sources */,
 				F4E3A46C1F467956002EB820 /* Frameworks */,
 				F4E3A46D1F467956002EB820 /* Resources */,
+				1909C8B3C953432116CFE5FB /* [CP] Embed Pods Frameworks */,
+				0076E1CF3E9A6DD3E1665FBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4E3A49A1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalTests" */;
 			buildPhases = (
+				7783B87E6124FD7A18135AE6 /* [CP] Check Pods Manifest.lock */,
 				F4E3A47F1F467956002EB820 /* Sources */,
 				F4E3A4801F467956002EB820 /* Frameworks */,
 				F4E3A4811F467956002EB820 /* Resources */,
+				4DB7CDDA983C972514CE7891 /* [CP] Embed Pods Frameworks */,
+				D6F45CDE4E4528C66582D107 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4E3A49D1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalUITests" */;
 			buildPhases = (
+				D661F6B2295BAE261CDE3154 /* [CP] Check Pods Manifest.lock */,
 				F4E3A48A1F467956002EB820 /* Sources */,
 				F4E3A48B1F467956002EB820 /* Frameworks */,
 				F4E3A48C1F467956002EB820 /* Resources */,
+				94FC46E4693F77869B9C0318 /* [CP] Embed Pods Frameworks */,
+				A9D25D8A6713CA2274D59D7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,15 +319,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0076E1CF3E9A6DD3E1665FBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seithigal/Pods-Seithigal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1909C8B3C953432116CFE5FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seithigal/Pods-Seithigal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB7CDDA983C972514CE7891 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeithigalTests/Pods-SeithigalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7783B87E6124FD7A18135AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94FC46E4693F77869B9C0318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeithigalUITests/Pods-SeithigalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D25D8A6713CA2274D59D7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeithigalUITests/Pods-SeithigalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D39D89E8B80BE2402A8FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D661F6B2295BAE261CDE3154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F45CDE4E4528C66582D107 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeithigalTests/Pods-SeithigalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4E3A46B1F467956002EB820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48B5C8B1F467D8E002E01FB /* NewsProvider.swift in Sources */,
 				F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */,
 				F4E3A4751F467956002EB820 /* ViewController.swift in Sources */,
 				F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */,
-				F4E3A4A51F467C4B002EB820 /* Constants.swift in Sources */,
+				F4E3A4A51F467C4B002EB820 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +618,7 @@
 		};
 		F4E3A4981F467956002EB820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B8EAD47B59B547B56C4429 /* Pods-Seithigal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2NMY273BR;
@@ -440,6 +632,7 @@
 		};
 		F4E3A4991F467956002EB820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52EA4DC18FA24F1FCF3F795 /* Pods-Seithigal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2NMY273BR;
@@ -453,6 +646,7 @@
 		};
 		F4E3A49B1F467956002EB820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80B8EAED0F8C428A3F5625C /* Pods-SeithigalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +662,7 @@
 		};
 		F4E3A49C1F467956002EB820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B191E0D12138A1995DA3A04 /* Pods-SeithigalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +678,7 @@
 		};
 		F4E3A49E1F467956002EB820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE8D58551589518A45E28E4 /* Pods-SeithigalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B2NMY273BR;
@@ -497,6 +693,7 @@
 		};
 		F4E3A49F1F467956002EB820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5E95A9B407FAB821A3373B /* Pods-SeithigalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B2NMY273BR;
@@ -528,6 +725,7 @@
 				F4E3A4991F467956002EB820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4E3A49A1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +734,7 @@
 				F4E3A49C1F467956002EB820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4E3A49D1F467956002EB820 /* Build configuration list for PBXNativeTarget "SeithigalUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +743,7 @@
 				F4E3A49F1F467956002EB820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
