@@ -14,6 +14,9 @@
 		F4E3A47D1F467956002EB820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A47B1F467956002EB820 /* LaunchScreen.storyboard */; };
 		F4E3A4881F467956002EB820 /* SeithigalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4871F467956002EB820 /* SeithigalTests.swift */; };
 		F4E3A4931F467956002EB820 /* SeithigalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4921F467956002EB820 /* SeithigalUITests.swift */; };
+		F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */; };
+		F4E3A4A31F467B45002EB820 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4A21F467B45002EB820 /* config.plist */; };
+		F4E3A4A51F467C4B002EB820 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A41F467C4B002EB820 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F4E3A48E1F467956002EB820 /* SeithigalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeithigalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E3A4921F467956002EB820 /* SeithigalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeithigalUITests.swift; sourceTree = "<group>"; };
 		F4E3A4941F467956002EB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewController.swift; sourceTree = "<group>"; };
+		F4E3A4A21F467B45002EB820 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		F4E3A4A41F467C4B002EB820 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				F4E3A4791F467956002EB820 /* Assets.xcassets */,
 				F4E3A47B1F467956002EB820 /* LaunchScreen.storyboard */,
 				F4E3A47E1F467956002EB820 /* Info.plist */,
+				F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */,
+				F4E3A4A21F467B45002EB820 /* config.plist */,
+				F4E3A4A41F467C4B002EB820 /* Constants.swift */,
 			);
 			path = Seithigal;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E3A4A31F467B45002EB820 /* config.plist in Resources */,
 				F4E3A47D1F467956002EB820 /* LaunchScreen.storyboard in Resources */,
 				F4E3A47A1F467956002EB820 /* Assets.xcassets in Resources */,
 				F4E3A4781F467956002EB820 /* Main.storyboard in Resources */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */,
 				F4E3A4751F467956002EB820 /* ViewController.swift in Sources */,
 				F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */,
+				F4E3A4A51F467C4B002EB820 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

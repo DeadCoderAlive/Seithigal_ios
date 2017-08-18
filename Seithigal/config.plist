@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>newsapi_apikey</key>
+	<string>d20aaba70c7747c782dd0def798b0753</string>
+	<key>newsapi_url_articles</key>
+	<string> https://newsapi.org/v1/articles</string>
+	<key>newsapi_url_sources</key>
+	<string> https://newsapi.org/v1/sources</string>
+</dict>
+</plist>
