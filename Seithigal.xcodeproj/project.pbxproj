@@ -11,6 +11,7 @@
 		9753537D5A1D7A037052DA33 /* Pods_SeithigalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EBFA129FC2D5F8B26D0146 /* Pods_SeithigalUITests.framework */; };
 		D3EC6CDEF663F7E7F43F9382 /* Pods_Seithigal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3D846B35ABC9817587903 /* Pods_Seithigal.framework */; };
 		F48B5C8B1F467D8E002E01FB /* NewsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */; };
+		F48B5C8D1F47142E002E01FB /* NewsCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B5C8C1F47142E002E01FB /* NewsCellCollectionViewCell.swift */; };
 		F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4721F467956002EB820 /* AppDelegate.swift */; };
 		F4E3A4751F467956002EB820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4741F467956002EB820 /* ViewController.swift */; };
 		F4E3A4781F467956002EB820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4761F467956002EB820 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */; };
 		F4E3A4A31F467B45002EB820 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E3A4A21F467B45002EB820 /* config.plist */; };
 		F4E3A4A51F467C4B002EB820 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3A4A41F467C4B002EB820 /* Config.swift */; };
+		F4F761531F48F95200ADED9E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F761521F48F95200ADED9E /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		DC5E95A9B407FAB821A3373B /* Pods-SeithigalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeithigalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeithigalUITests/Pods-SeithigalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6535DC6D2CDC3E840C4C88D /* Pods_SeithigalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeithigalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsProvider.swift; sourceTree = "<group>"; };
+		F48B5C8C1F47142E002E01FB /* NewsCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		F4E3A46F1F467956002EB820 /* Seithigal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seithigal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E3A4721F467956002EB820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E3A4741F467956002EB820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 		F4E3A4A01F467AAD002EB820 /* NewsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewController.swift; sourceTree = "<group>"; };
 		F4E3A4A21F467B45002EB820 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		F4E3A4A41F467C4B002EB820 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F4F761521F48F95200ADED9E /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				F4E3A4A21F467B45002EB820 /* config.plist */,
 				F4E3A4A41F467C4B002EB820 /* Config.swift */,
 				F48B5C8A1F467D8E002E01FB /* NewsProvider.swift */,
+				F48B5C8C1F47142E002E01FB /* NewsCellCollectionViewCell.swift */,
+				F4F761521F48F95200ADED9E /* Article.swift */,
 			);
 			path = Seithigal;
 			sourceTree = "<group>";
@@ -462,10 +468,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F761531F48F95200ADED9E /* Article.swift in Sources */,
 				F48B5C8B1F467D8E002E01FB /* NewsProvider.swift in Sources */,
 				F4E3A4A11F467AAD002EB820 /* NewsCollectionViewController.swift in Sources */,
 				F4E3A4751F467956002EB820 /* ViewController.swift in Sources */,
 				F4E3A4731F467956002EB820 /* AppDelegate.swift in Sources */,
+				F48B5C8D1F47142E002E01FB /* NewsCellCollectionViewCell.swift in Sources */,
 				F4E3A4A51F467C4B002EB820 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
